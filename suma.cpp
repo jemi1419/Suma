@@ -2,11 +2,11 @@
 using namespace std;
 
 int main() {
-	// este codigo hace una suma de a y b
-	int a,b;
+	// este codigo hace una suma de a y b ahora con decimales
+	double a,b;
 	// leer a y b
 	cin >> a >> b;
-	// imprimir la suma
-	cout << a+b;
+	// imprimir la suma redondeada a dos decimales 
+	cout << setprecision(2) << fixed<< a+b;
 	return 0;
 }
